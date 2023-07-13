@@ -1,38 +1,26 @@
-Club-Caramelo-Api
-
-A json-server demo featuring my Club Caramelo.
+PizzeriaOscarApi
 
 Example Routes:
 
-GET https://fork-carnation-lamb.glitch.me/club
+GET https://amethyst-comfortable-piper.glitch.me/producto
 
-POST https://fork-carnation-lamb.glitch.me/club
+POST https://amethyst-comfortable-piper.glitch.me/producto
 
-PATCH https://fork-carnation-lamb.glitch.me/club/1
+PATCH https://amethyst-comfortable-piper.glitch.me/producto/1
 
-DELETE https://fork-carnation-lamb.glitch.me/club/1
+DELETE https://amethyst-comfortable-piper.glitch.me/producto/1
 
+Each "producto" resource has the following fields:
 
-Each "club" resource has the following fields:
+{
 
-  {
+"id":  ,
 
-    "nombre": "Club Caramelo",
+"imagen": "data:image/jpeg;base64,",
 
-    "ubicacion": "Las Condes",
+"nombre": " ",
 
-    "direccion": "San Carlos de Apoquindo 171",
+"precio":  ,
 
-    "tematica": "La Realeza",
-
-    "capacidad": 150,
-
-    "cantidad": 100,
-
-    "precio": 80000,
-
-    "foto":Base64
-
-    "id": 1
-
-  },
+"descripcion": " "
+},
